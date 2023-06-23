@@ -1,0 +1,6 @@
+<svg id="history_plus" data-name="history plus" xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 52 52">
+  <rect id="Прямоугольник_11" data-name="Прямоугольник 11" width="52" height="52" rx="7" fill="#d5e9f8"/>
+  <g id="history" transform="translate(14 15)">
+    <path id="history-2" data-name="history" d="M3.5,14.616V14.25A11.236,11.236,0,1,1,5.2,20.2a.625.625,0,1,1,1.06-.662A10,10,0,1,0,4.75,14.25v.366l1.433-1.433a.625.625,0,0,1,.884.884l-2.5,2.5a.625.625,0,0,1-.884,0l-2.5-2.5a.625.625,0,1,1,.884-.884Zm15.871.934a.625.625,0,1,1-.492,1.149L14.5,14.825a.625.625,0,0,1-.347-.377L12.282,8.823a.625.625,0,1,1,1.186-.4l1.786,5.359Z" transform="translate(-1 -3)" fill="#1273eb"/>
+  </g>
+</svg>

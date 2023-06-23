@@ -1,0 +1,7 @@
+<svg id="phone" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <g id="Сгруппировать_9" data-name="Сгруппировать 9">
+    <circle id="Эллипс_3" data-name="Эллипс 3" cx="17" cy="17" r="17" transform="translate(0 0)" fill="#eee"/>
+    <path id="Контур_13" data-name="Контур 13" d="M28.355,15.284a17,17,0,1,1-17,17A17.008,17.008,0,0,1,28.355,15.284Zm0,.531A16.468,16.468,0,1,1,11.886,32.283,16.476,16.476,0,0,1,28.355,15.815Z" transform="translate(-11.355 -15.284)" fill="#464646" fill-rule="evenodd"/>
+  </g>
+  <path id="Stroke-1" d="M4.5,10.5C-.945,5.053-.171,2.559.4,1.755.477,1.625,2.295-1.1,4.243.5,9.08,4.484,2.957,3.921,7.018,7.983s3.5-2.062,7.481,2.774c1.6,1.949-1.125,3.767-1.254,3.84C12.442,15.171,9.947,15.946,4.5,10.5Z" transform="translate(9.5 9.5)" fill="none" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" fill-rule="evenodd"/>
+</svg>

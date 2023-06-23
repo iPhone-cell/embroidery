@@ -1,0 +1,166 @@
+html {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAF9F8;
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-style: normal;
+  color: #5F7D95;
+  font-size: 22px;
+  line-height: normal;
+  overflow-x: hidden;
+  font: 100% Helvetica, sans-serif;
+  color: #123;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-family: "Los Angeles Deco";
+  font-size: 86px;
+  line-height: 57px;
+  text-align: center;
+  color: #464646;
+}
+.title span {
+  color: #1273EB;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: "Los Angeles Deco";
+  border: 3px solid #EDC951;
+  border-radius: 41px;
+  max-width: 300px;
+  padding: 9px 20px 12px 24px;
+  cursor: pointer;
+  font-size: 42px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #464646;
+}
+.btn img {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn:hover {
+  gap: 50px;
+}
+.btn:hover img {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.link {
+  margin-top: 33px;
+  position: relative;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  line-height: 22px;
+  padding-right: 65px;
+  text-align: right;
+}
+.link a {
+  color: #464646;
+}
+
+.soc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.soc__item {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 34px;
+  height: 34px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.soc__item a {
+  display: block;
+  width: 34px;
+  height: 34px;
+}
+.soc__item-1 {
+  background-image: url(../img/social/phone_black.svg);
+}
+.soc__item-1:hover {
+  background-image: url(../img/social/phone_active.svg);
+}
+.soc__item-2 {
+  background-image: url(../img/social/vk_black.svg);
+}
+.soc__item-2:hover {
+  background-image: url(../img/social/vk_active.svg);
+}
+.soc__item-3 {
+  background-image: url(../img/social/insta_black.svg);
+}
+.soc__item-3:hover {
+  background-image: url(../img/social/insta_active.svg);
+}
+.soc__item-4 {
+  background-image: url(../img/social/tg_black.svg);
+}
+.soc__item-4:hover {
+  background-image: url(../img/social/tg_active.svg);
+}
+.soc__item-5 {
+  background-image: url(../img/social/whatsapp_black.svg);
+}
+.soc__item-5:hover {
+  background-image: url(../img/social/whatsapp_active.svg);
+}
+
+.info {
+  font-size: 18px;
+  font-style: italic;
+}
+
+@media (max-width: 1200px) {
+  .link {
+    max-width: 195px;
+    margin: 0 auto;
+  }
+  .coll .link {
+    max-width: 255px;
+  }
+}

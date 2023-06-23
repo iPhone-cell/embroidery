@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.776" height="59.006" viewBox="0 0 48.776 59.006">
+  <g id="Arrow" transform="translate(1.693 1.25)">
+    <g id="Iconly_Curved_Arrow" data-name="Iconly/Curved/Arrow" transform="translate(51.09 -4.75) rotate(90)">
+      <g id="Arrow---Right" transform="translate(4.75 51.09) rotate(-90)">
+        <line id="Stroke-1" y1="56.506" transform="translate(22.695)" fill="none" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+        <path id="Stroke-3" d="M45.389,0S33.1,22.791,22.7,22.791,0,0,0,0" transform="translate(0 33.714)" fill="none" stroke="#464646" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
