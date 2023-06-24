@@ -153,8 +153,8 @@ $(document).ready(function () {
 
 	// Our Slider (Slick Slider)
 	$('.our__slides').slick({
-		// infinite: true,
-		slidesToShow: 3,
+		infinite: true,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 		prevArrow: '<svg id="arrow__media" class="arrow__media-left" xmlns="http://www.w3.org/2000/svg" width="37.905" height="37.905" viewBox="0 0 37.905 37.905" style="transform: rotate(180deg)"> <g id="Layer_x0020_1" transform="translate(4.738 9.257)"> <path id="Контур_21" data-name="Контур 21" d="M2.038,3.2a1.185,1.185,0,1,0,0,2.369H28.1a1.185,1.185,0,0,0,0-2.369H2.038Z" transform="translate(-0.853 5.311)" fill="#464646" /> <path id="Контур_22" data-name="Контур 22" d="M6.036,2.014A1.184,1.184,0,0,0,4.361,3.689l7.674,7.674L4.361,19.037a1.184,1.184,0,0,0,1.675,1.675l8.5-8.5.007-.007a1.185,1.185,0,0,0,0-1.675h0L6.036,2.014Z" transform="translate(13.535 -1.667)" fill="#464646" /> </g> <rect id="Прямоугольник_17" data-name="Прямоугольник 17" width="37.905" height="37.905" fill="none" /></svg>',
 		nextArrow: '<svg id="arrow__media" class="arrow__media-right" xmlns="http://www.w3.org/2000/svg" width="37.905" height="37.905" viewBox="0 0 37.905 37.905"> <g id="Layer_x0020_1" transform="translate(4.738 9.257)"> <path id="Контур_21" data-name="Контур 21" d="M2.038,3.2a1.185,1.185,0,1,0,0,2.369H28.1a1.185,1.185,0,0,0,0-2.369H2.038Z" transform="translate(-0.853 5.311)" fill="#464646" /> <path id="Контур_22" data-name="Контур 22" d="M6.036,2.014A1.184,1.184,0,0,0,4.361,3.689l7.674,7.674L4.361,19.037a1.184,1.184,0,0,0,1.675,1.675l8.5-8.5.007-.007a1.185,1.185,0,0,0,0-1.675h0L6.036,2.014Z" transform="translate(13.535 -1.667)" fill="#464646" /> </g> <rect id="Прямоугольник_17" data-name="Прямоугольник 17" width="37.905" height="37.905" fill="none" /></svg>',
@@ -162,17 +162,16 @@ $(document).ready(function () {
 			{
 				breakpoint: 992,
 				settings: {
-					slidesToShow: 2,
+					slidesToShow: 1,
 					slidesToScroll: 1,
 					infinite: true,
-					dots: true
 				}
 			},
 			{
 				breakpoint: 600,
 				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2
+					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			},
 			{
