@@ -2186,9 +2186,6 @@ a {
 		margin-left: -60px;
 		gap: 30px;
 	}
-	.slider .container {
-		padding: 0;
-	}
 	.slider__item {
 		margin-right: 5px;
 		margin-left: 5px;
@@ -2621,3 +2618,10 @@ ul.btn__addlist-items {
 		transform: translate(-100%, 0);
 	}
 }
+
+/* @media (max-width: 376px) {
+	.slider__item {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+} */

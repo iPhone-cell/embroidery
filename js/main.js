@@ -97,9 +97,8 @@ $(document).ready(function () {
 		dots: true,
 		infinite: true,
 		arrows: false,
-		speed: 500,
+		speed: 250,
 		collArrows: false,
-		fade: true,
 		cssEase: 'linear',
 	});
 
