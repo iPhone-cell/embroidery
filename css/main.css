@@ -46,6 +46,24 @@
   font-weight: normal;
   font-style: normal;
 }
+.link-more {
+	color: #464646;
+	text-align: center;
+	
+	max-width: 280px;
+	font-size: 22px;
+	border: 1px solid #1273EB;
+	border-radius: 22px;
+	transition: all 0.3s ease;
+	display: inline-block;
+	padding: 0 30px;
+	height: 82px;
+	line-height: 82px;
+}
+.link-more:hover {
+	background: #1273EB1A;
+	border: 1px solid #1273EB1A;
+}
 .header {
   position: relative;
   padding-bottom: 300px;
@@ -429,7 +447,7 @@ border-radius: 0;
   background-repeat: no-repeat;
   background-position: cover;
   background-image: url("../img/plus.svg");
-  top: 5px;
+  top: 8px;
   left: 0;
 }
 .header__burger .btn__block-list {
@@ -599,7 +617,7 @@ border-radius: 0;
 @media (max-width: 768px) {
 	.header__top-list--link {
 		display: block;
-		width: 300px;
+		width: 140px;
 	}
 	.header__init {
 		margin: 10px 0;
@@ -1075,9 +1093,6 @@ a {
   height: 13px;
   background-color: #fff;
 }
-/* .slick-active {
-  bottom: 60px;
-} */
 .slick-active button {
 	background: #FFFFFF 0% 0% no-repeat padding-box;
 	opacity: 0.44;
@@ -2233,10 +2248,10 @@ ul.btn__addlist-items {
 	width: 100%;
 }
 
-.our__slider .slider__item {
+/* .our__slider .slider__item {
 	width: 1130px;
 	border-radius: 20px;
-}
+} */
 
 .our__control-text {
 	margin-bottom: 0;
@@ -2248,10 +2263,10 @@ ul.btn__addlist-items {
 	height: 100%;
 	opacity: 1;
 }
-.our__slides .our__slide.slick-slide {
+/* .our__slides .our__slide.slick-slide {
 	width: 600px!important;
 	margin: 0 -100px;
-}
+} */
 .our__slides {
 	overflow: hidden;
 }
@@ -2279,9 +2294,9 @@ ul.btn__addlist-items {
 .our__control {
 	margin-bottom: 30px;
 }
-.our__slides .slick-slide.slick-current {
+/* .our__slides .slick-slide.slick-current {
 	width: 400px;
-}
+} */
 
 @media (max-width: 1200px) {
 	.arrow__media-left.slick-arrow {
@@ -2291,14 +2306,14 @@ ul.btn__addlist-items {
 		right: 100px;
 	}
 }
-.our__slides .slick-slide.slick-current.slick-active  {
+/* .our__slides .slick-slide.slick-current.slick-active  {
 	width: 800px!important;
 	margin-right: 16px;
 	z-index: 2;
 	border-radius: 20px;
-}
+} */
 .our__slides .slick-slide img {
-	width: 800px;
+	width: 533px;
 	border-radius: 20px;
 }
 
@@ -2306,24 +2321,15 @@ ul.btn__addlist-items {
 	border-radius: 20px;
 }
 
-.our__slide {
-	max-width: 800px;
-	border-radius: 10px;
-	border-radius: 20px;
-}
-
 @media (max-width: 992px) {
 	.our__inner {
 		margin: 0 0 0 78px;
 	}
-	.our__slides .slick-slide.slick-current.slick-active  {
+	/* .our__slides .slick-slide.slick-current.slick-active  {
 		width: 533px!important;
 		margin-right: 16px;
 		z-index: 2;
-	}
-	.our__slides .slick-slide img {
-		width: 533px;
-	}
+	} */
 }
 @media (max-width: 768px) {
 	.our__slides .arrow__media-left.slick-arrow {
@@ -2340,14 +2346,11 @@ ul.btn__addlist-items {
 	.our__inner {
 		margin-left: 15px;
 	}
-	.our__slides .slick-slide.slick-current.slick-active  {
+	/* .our__slides .slick-slide.slick-current.slick-active  {
 		width: 300px!important;
 		margin-right: 10px;
 		z-index: 0;
-	}
-	.our__slides .slick-slide img {
-		width: 300px;
-	}
+	} */
 }
 @media (max-width: 555px) {
 	.our__slides .arrow__media-right.slick-arrow {
@@ -2397,12 +2400,7 @@ ul.btn__addlist-items {
 }
 
 @media (max-width: 380px) {
-	.our__slides .slick-slide img {
-		width: 220px;
-	}
 	.our__slides .slick-slide.slick-current.slick-active  {
-		width: 220px!important;
-		margin-right: 10px;
 		z-index: 0;
 	}
 	.create__gallery {
@@ -2434,7 +2432,19 @@ ul.btn__addlist-items {
 
 @media (max-width: 555px)  {
 	.reviews__item-img {
-		width: 147px;
+		width: 300px;
+	}
+	.reviews__item-3 .reviews__item-img {
+		width: 300px;
+	}
+}
+
+@media (max-width: 320px) {
+	.reviews__item-img {
+		width: 270px;
+	}
+	.reviews__item-3 .reviews__item-img {
+		width: 270px;
 	}
 }
 
@@ -2591,37 +2601,307 @@ ul.btn__addlist-items {
 }
 
 .slick-dots {
-	z-index: 9999999999;
+	z-index: 999;
 }
 
-.our__slide .slick-slide.slick-cloned {
+/* .our__slide .slick-slide.slick-cloned {
 	width: 800px!important;
-}
+} */
 
-.slick-slide.slick-cloned[tabindex="-1"] {
+/* .our__slide .slick-slide.slick-cloned[tabindex="-1"] {
 	transform: translate(25%, 0);
 }
-.slick-slide.slick-cloned[data-slick-index="-1"] {
+.our__slide .slick-slide.slick-cloned[data-slick-index="-1"] {
 	transform: translate(-100%, 0);
-}
+} */
 
 @media (max-width: 600px) {
-	.slick-slide.slick-cloned[tabindex="-1"] {
+	/* .our__slide .slick-slide.slick-cloned[tabindex="-1"] {
 		transform: translate(30%, 0);
-	}
+	} */
 }
 @media (max-width: 480px) {
-	.slick-slide.slick-cloned[tabindex="-1"] {
+	/* .our__slide .slick-slide.slick-cloned[tabindex="-1"] {
 		transform: translate(25%, 0);
 	}
-	.slick-slide.slick-cloned[data-slick-index="-1"] {
+	.our__slide .slick-slide.slick-cloned[data-slick-index="-1"] {
 		transform: translate(-100%, 0);
+	} */
+}
+
+@media (max-width: 1000px) {
+	.slider__item-btn:hover img {
+		-webkit-transform: rotate(90deg);
+		-ms-transform: rotate(90deg);
+		transform: rotate(90deg);
 	}
 }
 
-/* @media (max-width: 376px) {
-	.slider__item {
-		margin-right: 15px;
-		margin-left: 15px;
+@media (max-width: 1140px) {
+	.our__slides .slick-slide img {
+		width: 97%;
 	}
-} */
+}
+
+@media (max-width: 745px) {
+	.our__slides .slick-slide img {
+		max-width: 700px;
+		width: 97%;
+	}
+}
+
+/* About */
+.company {
+	padding: 0 0 84px 0;
+}
+.company__top {
+	padding: 0 0 0 42px;
+	border-radius: 22px;
+	min-height: 630px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: transparent url('../img/about/company.jpg') 0% 0% no-repeat padding-box;
+}
+.company__top-text {
+	text-align: left;
+	font: normal normal normal 86px/57px Los Angeles Deco;
+	color: #464646;
+	font-size: 86px;
+	max-width: 620px;
+}
+.company__bottom {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.company__bottom-item {
+	max-width: 540px;
+	text-align: center;
+	padding: 20px 28px;
+	font-size: 18px;
+	color: #464646;
+	font-weight: 700;
+	border-radius: 22px;
+	min-height: 255px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+.company__bottom-item:nth-child(1) {
+	background: #F4DE95;
+}
+.company__bottom-item:nth-child(2) {
+	background: #F1D67E;
+}
+.company__bottom-item:nth-child(3) {
+	background: #EFCF67;
+}
+.company__bottom-item:nth-child(4) {
+	background: #EDC850;
+}
+.company__bottom-item .opacity {
+	font-weight: 400;
+}
+
+/* Works */
+
+.works {
+
+}
+.works__title {
+	margin-bottom: 69px;
+}
+.works__main {
+	background: #AE9C951A;
+	padding: 30px 0 53px;
+}
+.works__main-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.works__main-item {
+	width: 549px;
+	height: 408px;
+	margin-bottom: 20px;
+	background-position: center;
+	border-radius: 14px;
+}
+.works__main-item:nth-child(1) {
+	background-image: url('../img/our/our-1.png');
+}
+.works__main-item:nth-child(2) {
+	background-image: url('../img/our/our-4.jpg');
+}
+.works__main-item:nth-child(3) {
+	background-image: url('../img/our/our-5.jpg');
+}
+.works__main-item:nth-child(4) {
+	background-image: url('../img/our/our-6.jpg');
+}
+.works__more {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+}
+
+/* Contacts */
+.contacts__top {
+	padding: 54px 0 88px;
+	color: #464646;
+	font: normal normal normal 86px/57px Los Angeles Deco;
+	max-width: 727px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	margin-bottom: 54px;
+}
+
+.contacts__top::before {
+	content: "";
+	position: absolute;
+	width: 49px;
+	height: 61px;
+	bottom: 0;
+	right: 50%;
+	background-image: url("../img/arrow-lg.svg");
+	background-repeat: no-repeat;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	transform: translateX(50%);
+}
+
+.contacts__top span {
+	color: #1273EB;
+}
+
+.contacts__main {
+	background: #AE9C951A;
+}
+
+.contacts__main-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.contacts__main-map {
+	max-width: 757px;
+	margin-right: 54px;
+}
+.contacts__main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.contacts__main-title {
+	margin-bottom: 103px;
+	text-align: left;
+}
+.contacts__main .contacts-list {
+}
+.contacts__main .contacts-item {
+	margin-bottom: 65px;
+	color: #464646;
+	display: flex;
+	align-items: center;
+}
+.contacts__main .contacts-item svg {
+	width: 20px;
+	height: 32px;
+	margin-right: 43px;
+}
+.contacts__main .contacts-title {
+	color: #464646;
+	font: normal normal 300 28px/37px Segoe UI;
+}
+.contacts__main .contacts__soc {
+	display: flex;
+	margin: 30px 0 0 68px;
+}
+.contacts__main .contacts__soc-item {
+	margin-right: 20px;
+	width: 34px;
+	height: 34px;
+}
+.contacts__main .contacts__soc-vk {
+	background-image: url("../img/social/vk_active.svg");
+}
+.contacts__main .contacts__soc-insta {
+	background-image: url("../img/social/insta_active.svg");
+}
+.contacts__main .contacts__soc-tg {
+	background-image: url("../img/social/tg_active.svg");
+}
+.contacts__main .contacts__soc-whatsapp {
+	background-image: url("../img/social/whatsapp_active.svg");
+}
+.icon-blue {
+	fill: #000;
+}
+
+/* About/Reviews */
+
+.reviews__subtitle {
+	line-height: 40px;
+	margin-top: 11px;
+}
+
+.reviews-more {
+	text-align: center;
+}
+
+/* Privacy */
+.privacy {
+}
+.privacy__title {
+}
+.title {
+}
+.privacy__subtitle {
+	margin-top: 35px;
+}
+.privacy__subtitle a {
+	color: #204675;
+}
+.privacy__main {
+	color:#464646;
+}
+.privacy__main-title {
+	font-size: 22px;
+	position: relative;
+	height: 60px;
+}
+.privacy__main-title::before,
+.privacy__main-title::after {
+	display: inline-block;
+}
+.privacy__main-title::before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #464646;
+	top: 0;
+	margin-left: -18px;
+}
+.privacy__main-title::after {
+	content: '+';
+	right: 18px;
+	position: absolute;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.privacy__main-text {
+	display: none;
+	font-size: 18px;
+	margin: 27px 0 52px;
+}
+
+.privacy__main-text.active {
+	display: block;
+}
