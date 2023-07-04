@@ -3162,3 +3162,234 @@ ul.btn__addlist-items {
 		right: 8px;
 	}
 }
+
+
+/* Catalog */
+.catalog-sidebar__main {
+	position: absolute;
+	z-index: 1000;
+	width: 124px;
+}
+
+.catalog-sidebar__title {
+	color: #464646;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 9px;
+}
+.catalog-sidebar__form {
+	color: #464646;
+	font-size: 16px;
+}
+
+.catalog-sidebar__form-checkbox {
+	position: relative;
+}
+
+.catalog-sidebar__form  input {
+	width: 16px;
+	height: 16px;
+	margin-right: 12px;
+	margin-bottom: 9px;
+	transform: translateY(2px);
+}
+
+.catalog-sidebar__form  input:checked {
+	opacity: 0.5;
+}
+
+.catalog__main {
+	padding-left: 170px;
+}
+
+.catalog__top {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.catalog__top-item {
+	margin-right: 11px;
+	max-width: 221px;
+	width: 100%;
+	height: 109px;
+	line-height: 109px;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 49px;
+	font-family: Los Angeles Deco;
+	border-radius: 14px;
+}
+.catalog__top-item:nth-child(1) {
+	background: url('../img/coll/coll-1.png');
+	background-position: center;
+	background-size: cover;
+}
+.catalog__top-item:nth-child(2) {
+	background: url('../img/coll/coll-2.png');
+	background-position: center;
+	background-size: cover;
+}
+.catalog__top-item:nth-child(3) {
+	background: url('../img/coll/coll-4.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.catalog__top-item:nth-child(4) {
+	background: url('../img/coll/coll-5.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.catalog__center {
+	margin-top: 32px;
+}
+.catalog__center .stock__items {
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	max-width: 1000px;
+	margin-top: 58px;
+}
+.catalog__center .stock__item {
+	max-width: 166px;
+	margin-bottom: 25px;
+	margin-right: 12px;
+	height: 258px;
+}
+.catalog__center .stock__item-fav {
+	width: 23px;
+	height: 23px;
+}
+.catalog__center .stock__item-fav img {
+	transition: all 0.3s ease;
+}
+.catalog__center .stock__item-fav img {
+	width: 11px;
+	height: 10px;
+	transform: translateY(-12px);
+}
+.catalog__center .stock__item-img {
+	width: 166px;
+	height: 212px;
+}
+.catalog__center  .stock__item-title {
+	display: block;
+	font-size: 11px;
+	line-height: 12px;
+	transform: translateY(-10px);
+}
+
+.catalog__title {
+	text-align: left;
+}
+
+.catalog .stock__item-fav {
+	border: none;
+}
+
+.catalog .stock__item-fav::after {
+	content: '';
+	background: url('../img/favs.svg');
+	background-size: cover;
+	width: 10px;
+	height: 9px;
+	position: absolute;
+	left: 6.5px;
+	top: 6.5px;
+	transition: all 0.3s ease;
+}
+.catalog .stock__item-fav:hover {
+	background: #fff;
+}
+.catalog .stock__item-fav:hover::after {
+	background: url('../img/favs_active.svg');
+	width: 12px;
+	height: 11px;
+	background-size: contain;
+	background-color: none;
+	right: 0;
+	transform: translateY(1px);
+}
+
+.catalog__mobile-filter {
+	display: none;
+}
+
+/* Catalog/Responsive */
+@media (max-width: 1199px) {
+	.catalog__top-item {
+		width: 23%;
+	}
+}
+
+@media (max-width: 991px) {
+	.catalog-sidebar {
+		position: absolute;
+		left: -100%;
+		transition: all 0.3s ease;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 20%;
+	}
+	.catalog__main {
+		padding-left: 0;
+		margin-top: 43px;
+	}
+	.catalog__top {
+		justify-content: space-between;
+	}
+	.catalog__top-item:last-child {
+		margin-right: 0;
+	}
+	.catalog__title {
+		text-align: center;
+	}
+	.catalog .stock__item {
+		width: 145px;
+	}
+	.catalog .stock__item-img {
+		width: 100%;
+	}
+	.catalog__center .stock__items {
+		justify-content: center;
+	}
+	.catalog__mobile-filter {
+		display: block;
+		border: none;
+		background: none;
+		transform: translateX(45px) translateY(50px);
+	}
+	.catalog-sidebar.active {
+		left: 0;
+		background: #fff;
+	}
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 575px) {
+
+}
+
+/* Help */
+.help__intro .company__top {
+	background: url('../img/help__intro/help__intro.jpg') center center no-repeat padding-box;
+}
+
+.help__intro .company__top-text {
+	color: #fff;
+}
+
+.company__top-text-small {
+	color: #fff;
+	line-height: 24px;
+	font-size: 18px;
+	max-width: 545px;
+	margin-top: 40px;
+}
+.company__top-text-small p {
+	margin-bottom: 10px;
+}

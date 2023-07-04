@@ -286,4 +286,10 @@ $(document).ready(function () {
 		}
 		$(this).toggleClass('active').next().slideToggle(300);
 	});
+
+	// Mobile-filter
+	$('.catalog__mobile-filter').click(function () {
+		$('.catalog-sidebar').toggleClass('active');
+	});
+
 });
