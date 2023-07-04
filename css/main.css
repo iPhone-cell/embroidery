@@ -2873,7 +2873,7 @@ ul.btn__addlist-items {
 .privacy__main {
 	color:#464646;
 	margin-top: 50px;
-	margin-bottom: 110px;
+	margin-bottom: 50px;
 }
 .privacy__main-title {
 	font-size: 22px;
@@ -3003,6 +3003,15 @@ ul.btn__addlist-items {
 	.about.reviews__subtitle {
 		line-height: 30px;
 	}
+	.privacy__subtitle {
+		font-size: 20px;
+	}
+	.privacy__main-title {
+		font-size: 18px;
+	}
+	.privacy__main-text {
+		font-size: 16px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -3053,6 +3062,12 @@ ul.btn__addlist-items {
 	.contacts__main .contacts__soc svg {
 		width: 20px;
 		height: 20px;
+	}
+	.privacy__main  {
+		margin-bottom: 32px;
+	}
+	.contacts__main-map iframe {
+		height: 305px;
 	}
 }
 
@@ -3128,5 +3143,22 @@ ul.btn__addlist-items {
 		max-width: 466px;
 		margin-left: 15px;
 		margin-right: 15px;
+	}
+	.privacy__subtitle {
+		font-size: 16px;
+		margin-top: 0px;
+	}
+	.privacy__main-title {
+		padding: 15px 0;
+	}
+	.privacy__main-title::before {
+		margin-left: -10px;
+	}
+	.privacy__main-title::after {
+		right: 8px;
+		top: 45%;
+	}
+	.privacy__main-title.active::after {
+		right: 8px;
 	}
 }
