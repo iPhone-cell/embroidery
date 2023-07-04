@@ -280,6 +280,10 @@ $(document).ready(function () {
 
 	// Accordion
 	$('.privacy__main-title').click(function (event) {
+		if ($('.privacy__main').hasClass('one')) {
+			$('.privacy__main-title').not($(this)).removeClass('active');
+			$('.privacy__main-text').not($(this).next()).slideUp(300);
+		}
 		$(this).toggleClass('active').next().slideToggle(300);
 	});
 });
