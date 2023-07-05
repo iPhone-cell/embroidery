@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35.5" height="63.5" viewBox="0 0 35.5 63.5">
+  <g id="ic6" transform="translate(1.75 1.75)">
+    <path id="Контур_105" data-name="Контур 105" d="M34,6H6V2H34V62H2V36H34" transform="translate(-2 -2)" fill="none" stroke="#017f36" stroke-linejoin="round" stroke-width="3.5"/>
+    <path id="Контур_106" data-name="Контур 106" d="M34,6V29L24,36" transform="translate(-24 -2)" fill="none" stroke="#017f36" stroke-linejoin="round" stroke-width="3.5"/>
+    <line id="Линия_19" data-name="Линия 19" x1="32" transform="translate(0 38)" fill="none" stroke="#017f36" stroke-linejoin="round" stroke-width="3.5"/>
+    <path id="Контур_107" data-name="Контур 107" d="M28,10h0a4,4,0,0,0-4,4V25a4,4,0,0,0,4,4h0" transform="translate(-18 -2)" fill="none" stroke="#017f36" stroke-linejoin="round" stroke-width="3.5"/>
+    <line id="Линия_23" data-name="Линия 23" x1="32" transform="translate(0 56)" fill="none" stroke="#017f36" stroke-linejoin="round" stroke-width="3.5"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg id="mir" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.161" y1="-14.047" x2="4.286" y2="-14.047" gradientUnits="objectBoundingBox">
+      <stop offset="0.3" stop-color="#00b4e6"/>
+      <stop offset="1" stop-color="#088ccb"/>
+    </linearGradient>
+  </defs>
+  <rect id="Прямоугольник_18" data-name="Прямоугольник 18" width="80" height="80" rx="9" fill="#fff"/>
+  <g id="national-payment-system-mir" transform="translate(-240.449 -256.608)">
+    <path id="Контур_89" data-name="Контур 89" d="M267.555,288.608v.007a2.929,2.929,0,0,0-2.773,2.08c-.534,1.913-2.038,7.193-2.08,7.339h-.416s-1.539-5.4-2.08-7.346a2.934,2.934,0,0,0-2.773-2.08h-4.986v15.87h4.989v-9.425h.416l2.911,9.425h3.464l2.911-9.418h.416v9.418h4.989v-15.87Zm18.224,0a2.8,2.8,0,0,0-2.149,1.664l-3.533,7.762h-.416v-9.425h-4.989v15.87H279.4a2.878,2.878,0,0,0,2.218-1.664l3.464-7.762h.416v9.425h4.989v-15.87Zm6.93,7.207v8.663H297.7V299.42h5.4a5.4,5.4,0,0,0,5.093-3.6H292.709Z" fill="#4db45e"/>
+    <path id="Контур_90" data-name="Контур 90" d="M811.416,288.608h-11.1a7.97,7.97,0,0,0,7.838,6.514h8.552a5.325,5.325,0,0,0,.111-1.109A5.4,5.4,0,0,0,811.416,288.608Z" transform="translate(-508.311)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
