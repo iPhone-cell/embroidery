@@ -291,5 +291,8 @@ $(document).ready(function () {
 	$('.catalog__mobile-filter').click(function () {
 		$('.catalog-sidebar').toggleClass('active');
 	});
+	$('.catalog__mobile-back').click(function () {
+		$('.catalog-sidebar').removeClass('active');
+	});
 
 });
